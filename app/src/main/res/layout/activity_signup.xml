@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/signup"
+    tools:context="com.example.dharma.bloodbank.signup">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign up"
+        android:textSize="40dp"
+        android:textColor="#ae4141"/>
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="User name"/>
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/signup_signup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="sign up"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#dc1e1e"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
